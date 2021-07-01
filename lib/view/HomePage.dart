@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import '../clock.dart';
+import '../widgets/clock.dart';
 import '../controller/controller.dart';
 
 class HomePage extends StatelessWidget {
