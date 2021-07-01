@@ -1,8 +1,8 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'clockPainter.dart';
-import 'controller.dart';
+import 'painter/clockPainter.dart';
+import 'controller/controller.dart';
 
 class Clock extends StatelessWidget {
   final controller = Get.put(Controller());
