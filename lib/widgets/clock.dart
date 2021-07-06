@@ -1,8 +1,8 @@
 import 'dart:math';
+import 'package:alaram_ui/controller/controller.dart';
+import 'package:alaram_ui/painter/clockPainter.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../painter/clockPainter.dart';
-import '../controller/controller.dart';
 
 class Clock extends StatelessWidget {
   final controller = Get.put(Controller());

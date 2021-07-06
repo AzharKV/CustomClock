@@ -6,8 +6,9 @@ class Controller extends GetxController {
 
   @override
   void onInit() {
-    Timer.periodic(
-        Duration(seconds: 1), (timer) => dateTime.value = DateTime.now());
+    Timer.periodic(Duration(seconds: 1), (timer) {
+      return dateTime.value = DateTime.now();
+    });
     super.onInit();
   }
 }
